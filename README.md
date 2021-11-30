@@ -18,17 +18,12 @@ This task meant to measure needed job skills and it is a part of the hiring eval
 
 * ### First MicroService
     * API that would work as a registration form, where you store the data sent from the API in mySQL/PostgreSQL Database.
-
 * ### Second Microservice
     * API that would send an email notification as soon as an email is registered, and you would need to log all the notifications sent in a NoSQL database.
-
-
 * ### Queue
     * Implement queueing of messages using "Kafka" to handle the communication between the two micro-services mentioned above.
-
 * ### Docker Containers
     * Please ensure everything is added on separate Docker Containers.
-
 </br>
 
 # Task deliverables:
@@ -42,15 +37,8 @@ This task meant to measure needed job skills and it is a part of the hiring eval
 
 
 
-
 # Prerequisites
 * Docker
-* PHP => Latest
-* Laravel => Latest
-* MySql => Latest
-* NodeJS => Latest
-* Python => Latest
-* NoSQL Database
-
+* The latest version of the selected stack
 
 **Thank you, can't wait to join us.** 

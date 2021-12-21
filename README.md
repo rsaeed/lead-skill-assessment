@@ -10,35 +10,28 @@ This task meant to measure needed job skills and it is a part of the hiring eval
 </br>
 
 # Task Details
-> The objective is to develop a simple task where you would implement two micro-services using two different technology stacks, one using PHP (Symfony/Laravel) and the other using either NodeJS/Python or GO, we expect you to containerize your microservices using docker.
 
+## Business Scope
+Loyalty system to generate voucher codes and redeem them based on specific dates, Email notification is required when a user redeems his/her voucher. 
 
+For the marketing team, there is another application that has consolidated statistics about the users who used the voucher and the vouchers purchases,
+also be able to generate some kind of reports (ex. # purchased/redeem the voucher for each user tier).
 
-## Task features:
-
-* ### First MicroService
-    * API that would work as a registration form, where you store the data sent from the API in mySQL/PostgreSQL Database.
-* ### Second Microservice
-    * API that would send an email notification as soon as an email is registered, and you would need to log all the notifications sent in a NoSQL database.
-* ### Queue
-    * Implement queueing of messages using "Kafka" to handle the communication between the two micro-services mentioned above.
-* ### Docker Containers
-    * Please ensure everything is added on separate Docker Containers.
 </br>
 
-# Task deliverables:
-1. Git repo has: 
-    * Code implementing the above features.
-    * Code Documentation.
-2. README file to install the proper steps.
-3. Unit Test/HTTP Tests
-4. API Documentation.
-5. Task rate on a scale of 1 to 5.
+> The objective is to develop a web service where you would implement two or more microservices using two different technology stacks, one using PHP (Symfony/Laravel) and the other using either NodeJS/Python or GO, SQL and NoSQL database must be used. and the microservices communicate through "Apache Kafka". we expect your solution to utilize Docker containers.
+
+</br>
 
 
+## Task deliverables:
+1. Git repos have source code  
+    * Code is well documented.
+    * Unit Test/HTTP Tests.
+    * API Documentation.
+2. README file explains the implmented solution and how to run your application.
+4. Task rate on a scale of 1 to 5.
 
-# Prerequisites
-* Docker
-* The latest version of the selected stack
+</br>
 
 **Thank you, can't wait to join us.** 
